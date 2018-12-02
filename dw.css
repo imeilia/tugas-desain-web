@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Tugas Desain Web</title>
+<style>
+	p{
+		line-height:25px;
+		text-align:justify;
+	}
+	h1{
+		font-family:burelom;
+		color:#3AE2CE
+	}
+	a{
+		text-decoration:underline;
+		color:#00FFA9
+	}
+	ul.li{
+		list-style-type:none;
+	}
+	header{
+		widht:1330px;
+		height:14%;
+		background-color:#FFDD00;
+		padding:10px;
+		color:#FF00AE;
+	}
+	nav{
+		widht:1280px;
+		background-color:#3AE2CE;
+		padding-left:65px;
+		padding-right:5px;
+		padding-top:5px;
+		height:4%;
+	}
+	.menucolumn{
+	word-spacing:3px;
+	line-height:25px;
+	flot:left;
+	widht:150px;
+	padding:10px;
+	height:63%;
+	}
+	.contentcolumn{
+	float:left;
+	widht:229.5px;
+	padding:10px;
+	height:63%;
+	margin-right:-20px;
+	}
+	.row:after{
+	content:"";
+	display:table;
+	clear:both;
+	}
+	footer{
+	height:6%;
+	background-color:#FF00AE;
+	}
+</style>
+</head>
+<body>
+<header>
+<h1>Website Logo</h1>
+</header>
+<nav>
+<anref="#">Home</a>
+</nav>
+<div class="row">
+<div class="menucolumn"style="background-color:#3AE2CE">
+<ul>
+<li><a herf="#">Menu link</a></li>
+<li><a herf="#">Menu link</a></li>
+<li><a herf="#">Menu link</a></li>
+<li><a herf="#">Menu link</a></li>
+<li><a herf="#">Menu link</a></li>
+</ul>
+</div>
+<div class="contentcolumn"style="background-color:#A8E2D6">
+<h4>Page heading</h4>
+<p>
+A three column layout with heder, navigation bar and footer sections. the first, second and fourth 
+table rows create the header, navigation bar and footer respectively and contain a single table cell each.
+all these table cells use colspan="3"atribute-value pair.
+<br>
+<br>
+the third table row contains three tbalecells which create the menu column(left), the content column(middle)
+and the extra column(right)
+</p>
+</div>
+<div class="extracolumn"style="background-color:#00FFA9">
+</div>
+</div>
+<footer>
+</footer>
+</body>
+</html>
